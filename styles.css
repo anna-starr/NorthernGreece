@@ -1,0 +1,134 @@
+
+/* General page setup */
+body {
+  font-family: Secular One, sans-serif;
+  background:
+	linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+	url("img/greece-background.png");
+  /*background-color: #fefefe;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #264698;
+  margin: 80px;
+  line-height: 1.6;
+  border: 2px solid #264698;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+
+
+body info {
+  font-family: Secular One, sans-serif;
+  background-color: #fefefe;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #264698;
+  margin: 80px;
+  line-height: 1.6;
+  border: 2px solid #264698;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.map {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.icon{
+  width:50px;
+  height:50px;
+  margin-bottom:30px;
+}
+
+
+
+.top{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.zoom-image{
+  display: block;
+  margin: auto;
+  margin-bottom:30px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.zoom-image:hover{
+	transform: scale(1.3);
+}
+
+.day{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	/*background-color: #a5dfdd;*/
+	background-color: none;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	border: 2px solid #264698;
+	border-radius: 8px;
+	font-size: 14px;
+	text-align: right;
+	gap: 20px;
+	
+	box-sizing: border-box;
+}
+
+.day-content{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	
+}
+
+.day-image{
+	max-width: 30%;
+	max-height: 30%;
+	border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	display: block;
+	margin: 50px;
+	margin-left: 80px;
+	align-self: flex-direction;
+	transition: transform 0.3s ease;
+}
+
+.day-image:hover{
+	transform: scale(1.2);
+}
+
+.small-icon{
+  width:35px;
+  height:35px;
+  margin: 2px;
+}
+
+.day-scheduler{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+	text-align: right;
+}
